@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B22BE18018AB368000E12DC9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B22BE17F18AB368000E12DC9 /* main.cpp */; };
 		B22BE18218AB368000E12DC9 /* eq_1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B22BE18118AB368000E12DC9 /* eq_1.1 */; };
+		B22BE19018AB36DB00E12DC9 /* visualequalizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B22BE18B18AB36DB00E12DC9 /* visualequalizer.cpp */; };
+		B22BE19118AB36DB00E12DC9 /* widget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B22BE18D18AB36DB00E12DC9 /* widget.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,15 @@
 		B22BE17C18AB368000E12DC9 /* eq_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = eq_1; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22BE17F18AB368000E12DC9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B22BE18118AB368000E12DC9 /* eq_1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = eq_1.1; sourceTree = "<group>"; };
+		B22BE18818AB36DB00E12DC9 /* qt-bass.pro */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "qt-bass.pro"; sourceTree = "<group>"; };
+		B22BE18918AB36DB00E12DC9 /* qt-bass.pro.user */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "qt-bass.pro.user"; sourceTree = "<group>"; };
+		B22BE18A18AB36DB00E12DC9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B22BE18B18AB36DB00E12DC9 /* visualequalizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = visualequalizer.cpp; sourceTree = "<group>"; };
+		B22BE18C18AB36DB00E12DC9 /* visualequalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visualequalizer.h; sourceTree = "<group>"; };
+		B22BE18D18AB36DB00E12DC9 /* widget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = widget.cpp; sourceTree = "<group>"; };
+		B22BE18E18AB36DB00E12DC9 /* widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widget.h; sourceTree = "<group>"; };
+		B22BE18F18AB36DB00E12DC9 /* widget.ui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = widget.ui; sourceTree = "<group>"; };
+		B22BE19218AB37DB00E12DC9 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +55,7 @@
 		B22BE17318AB368000E12DC9 = {
 			isa = PBXGroup;
 			children = (
+				B22BE19218AB37DB00E12DC9 /* QTKit.framework */,
 				B22BE17E18AB368000E12DC9 /* eq_1 */,
 				B22BE17D18AB368000E12DC9 /* Products */,
 			);
@@ -60,6 +72,14 @@
 		B22BE17E18AB368000E12DC9 /* eq_1 */ = {
 			isa = PBXGroup;
 			children = (
+				B22BE18818AB36DB00E12DC9 /* qt-bass.pro */,
+				B22BE18918AB36DB00E12DC9 /* qt-bass.pro.user */,
+				B22BE18A18AB36DB00E12DC9 /* README.md */,
+				B22BE18B18AB36DB00E12DC9 /* visualequalizer.cpp */,
+				B22BE18C18AB36DB00E12DC9 /* visualequalizer.h */,
+				B22BE18D18AB36DB00E12DC9 /* widget.cpp */,
+				B22BE18E18AB36DB00E12DC9 /* widget.h */,
+				B22BE18F18AB36DB00E12DC9 /* widget.ui */,
 				B22BE17F18AB368000E12DC9 /* main.cpp */,
 				B22BE18118AB368000E12DC9 /* eq_1.1 */,
 			);
@@ -117,6 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B22BE19118AB36DB00E12DC9 /* widget.cpp in Sources */,
+				B22BE19018AB36DB00E12DC9 /* visualequalizer.cpp in Sources */,
 				B22BE18018AB368000E12DC9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
